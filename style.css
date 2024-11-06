@@ -1,0 +1,60 @@
+@font-face {
+    font-family: The Wild Breath of Zelda;
+    src: url('./fonts/TheWildBreathofZelda.otf');
+}
+@font-face {
+    font-family: Hylia Serif;
+    src: url(./fonts/HyliaSerifBeta-Regular.otf);
+}
+
+
+
+body
+{
+    margin: 0;
+}
+
+.main
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: url(./img/background_img.jpg);
+}
+.header
+{
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    color: white;
+    font-family: Hylia Serif;
+    align-items: center;
+    flex: 1 1 12%
+}
+.header > ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    gap: 1rem;
+}
+
+.content
+{
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.footer
+{
+    grid-column: 1 / -1;
+    grid-row: 3;
+}
