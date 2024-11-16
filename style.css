@@ -46,7 +46,8 @@
 }
 .header > div
 {
-    flex: 0 0 10%
+    flex: 0 0 12%;
+    padding: 0.5rem;
 }
 .header > ul
 {
@@ -77,6 +78,15 @@
     background-color: rgb(34, 34, 34);
     color: white;
     border-radius: 20px;
+    padding: 0.5rem 2rem;
+}
+.icons
+{
+    display: flex;
+}
+.icons > div
+{
+    flex: 0 0 5%;
 }
 
 .footer
@@ -84,4 +94,10 @@
     grid-column: 1 / -1;
     grid-row: 3;
     background-color: black;
+    color: white;
+    padding: 1rem;
+    display: grid;
+    justify-items: center
 }
+
+
