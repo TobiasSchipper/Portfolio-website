@@ -75,6 +75,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">Load PDF 3</button>
                     </div>
                 </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Jaar 1, Semester 2</button>
+                    <div class="dropdown-content">
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf2.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">To be added</button>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Jaar 2, Semester 1</button>
+                    <div class="dropdown-content">
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf2.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">To be added</button>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Jaar 2, Semester 2</button>
+                    <div class="dropdown-content">
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf2.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">To be added</button>
+                    </div>
+                </div>
                 <!-- More dropdowns here -->
             </div>
             <div id="pdf-container" style="margin-top: 20px;">
