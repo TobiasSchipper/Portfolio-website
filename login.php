@@ -1,11 +1,8 @@
-
 <?php
-// Laad de Composer autoloader
+// Load .env file with token
 require_once __DIR__ . '/vendor/autoload.php';
-
 use Dotenv\Dotenv;
 
-// Initialiseer Dotenv en laad .env-bestand
 try {
     $dotenv = Dotenv::createImmutable(__DIR__ . '/', 'token.env');
     $dotenv->load();
@@ -13,33 +10,27 @@ try {
     die('Could not load .env file.');
 }
 
-
-// Check of de user niet probeert te skippen
-if ($_SERVER['REQUEST_METHOD'] != 'POST') {
-    header("Location: ./index.html");
-    exit;
-}
-
-// Haal info uit de POST
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
-
+// Check if form is submitted
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $input_token = !empty($_POST['token']) ? $_POST['token'] : false;
-
     $token = $_ENV['TOKEN'];
 
-    if($input_token === $token) {
-        echo "<script> window.location.href = './pages/portfolio.html';</script>";
-    }
-    else {
-        echo "<script> 
+    // Validate the token
+    if ($input_token === $token) {
+        // Redirect to portfolio page with token as a GET parameter
+        header("Location: ./pages/portfolio.php?token=" . urlencode($token));
+        exit;
+    } else {
+        // If the token is incorrect, show an alert and stay on the login page
+        echo "<script>
                 alert('Verkeerde Token ingevoerd!');
                 window.location.href = './pages/login.html';
-                </script>";
-
+              </script>";
         exit;
-
     }
-
+} else {
+    // If the form is not submitted, show the login page
+    header("Location: ./pages/login.html");
+    exit;
 }
-
 ?>
