@@ -85,11 +85,11 @@
     color: white;
     border-radius: 20px;
     padding: 0.5rem 2rem;
+    min-height: 57.4vh;
 }
 .content > p > a
 {
     color: white;
-    text-decoration: inherit;
 }
 .icons
 {
@@ -116,4 +116,11 @@
     justify-items: center
 }
 
-
+h2
+{
+    padding-bottom: 1rem;
+}
+.indexText
+{
+    padding-bottom: 1rem;
+}
