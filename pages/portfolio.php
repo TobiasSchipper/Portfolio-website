@@ -45,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="../css/normalize.css" type="text/css">
     <link rel="stylesheet" href="../style.css" type="text/css">
     <link rel="stylesheet" href="../css/portfolio.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="../img/aardbei.ico">
 </head>
 <body>
     <div class="main">  
