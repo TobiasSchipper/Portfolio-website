@@ -1,0 +1,11 @@
+.content
+{
+    min-height: 62.6vh;
+    display: flex;
+}
+.login
+{
+    padding: 1rem 1rem ;
+    width: 100%;
+    height: 100%;
+}
