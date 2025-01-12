@@ -39,13 +39,14 @@
   /* Links inside the dropdown */
   .dropdown-content button {
     color: black;
-    padding: 10px 16px;
+    justify-content: center;
     text-decoration: none;
     display: block;
     border: none;
     cursor: pointer;
     width: 100%;
     background-color: #707070;
+    padding: 0.5rem 0.5rem;
   }
   
   /* Change color of dropdown links on hover */

@@ -1,0 +1,20 @@
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img > img
+{
+    border-radius: 50%;
+}
+.contact > a
+{
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+.contact
+{
+    padding: 3rem 3rem ;
+}
