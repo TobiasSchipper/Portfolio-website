@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </a>
             <div>
                 <a href="https://www.nhlstenden.com/">
-                    <img src="./svg/Stenden_logo_wit.svg" alt="NHLSTENDEN">
+                    <img src="../svg/Stenden_logo_wit.svg" alt="NHLSTENDEN">
                 </a>
             </div>
             
