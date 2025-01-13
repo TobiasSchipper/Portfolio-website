@@ -54,7 +54,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <h1>Tobias</h1>
             </a>
             <div>
-                <img src="../svg/Stenden_logo_wit.svg" alt="NHLSTENDEN">
+                <a href="https://www.nhlstenden.com/">
+                    <img src="./svg/Stenden_logo_wit.svg" alt="NHLSTENDEN">
+                </a>
             </div>
             
             <ul>
@@ -102,6 +104,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
                 <!-- More dropdowns here -->
             </div>
+            <div id="download-container" style="margin-top: 20px;">
+                <!-- The download button will be displayed here -->
+            </div>
             <div id="pdf-container" style="margin-top: 20px;">
                 <!-- The PDF will be displayed here -->
             </div>
@@ -111,11 +116,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 
+
     <script>
-        // Function to load the PDF into the iframe
+        let currentPDF = '';
+
         function loadPDF(url) {
+            currentPDF = url;
             document.getElementById('pdf-container').innerHTML = 
                 '<iframe src="' + url + '" width="100%" height="700px"></iframe>';
+            document.getElementById('download-container').innerHTML = 
+                '<button onclick="openPDF()">Open PDF in Fullscreen Window</button>';
+        }
+
+        function openPDF() {
+            window.open(currentPDF, '_blank');
         }
     </script>
 </body>
