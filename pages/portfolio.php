@@ -74,8 +74,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <button class="dropbtn">Jaar 1, Semester 1</button>
                     <div class="dropdown-content">
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Portfolio_2024_2025.pdf')">Edumondo</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf2.pdf')">Load PDF 2</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">Load PDF 3</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Feedback-email-Edumondo.pdf')">Feedback email Edumondo</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Format_notulen_27-09-2024_TobiasSchipper.pdf')">Notulen</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Plan_van_Aanpak.pdf')">Plan van Aanpak</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Feedbackformulier_Vergaderen_TobiasSchipper.pdf')">Feedback formulier Vergaderen</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Tips_en_Tops_P1.pdf')">Tips en Tops P1</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Presentatie_voorbereiding_INF-1A_P1.pdf')">P1 Presentatie Voorbereiding</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Groepspresentatie_INF1A.pdf')">P1 Presentatie Feedback</button>
                     </div>
                 </div>
                 <div class="dropdown">
