@@ -81,6 +81,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Tips_en_Tops_P1.pdf')">Tips en Tops P1</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Presentatie_voorbereiding_INF-1A_P1.pdf')">P1 Presentatie Voorbereiding</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Groepspresentatie_INF1A.pdf')">P1 Presentatie Feedback</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Presentatie_voorbereiding_INV.pdf')">P2 INV Presentatie Voorbereiding</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/.pdf')">P2 INV Presentatie Feedback</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Reflectie-verslag.pdf')">Reflectie Verslag</button>
                     </div>
                 </div>
                 <div class="dropdown">
