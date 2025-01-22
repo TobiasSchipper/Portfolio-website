@@ -79,6 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Plan_van_Aanpak.pdf')">Plan van Aanpak</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Feedbackformulier_Vergaderen_TobiasSchipper.pdf')">Feedback formulier Vergaderen</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Tips_en_Tops_P1.pdf')">Tips en Tops P1</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Tippie-En-Toppies-P2.pdf')">Tips en Tops P2</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Presentatie_voorbereiding_INF-1A_P1.pdf')">P1 Presentatie Voorbereiding</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Groepspresentatie_INF1A.pdf')">P1 Presentatie Feedback</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester1/Professional_Skills/Presentatie_voorbereiding_INV.pdf')">P2 INV Presentatie Voorbereiding</button>
