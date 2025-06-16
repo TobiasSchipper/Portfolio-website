@@ -93,9 +93,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="dropdown">
                     <button class="dropbtn">Jaar 1, Semester 2</button>
                     <div class="dropdown-content">
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">To be added</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf2.pdf')">To be added</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Comminucatie-Formulier.pdf')">Evaluatie Formulier</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Persoonlijk-ontwikkelingsplan-opleiding-Informatica-2.1-TobiasSchipper.pdf')">POP</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">POP Bewijs Material (To be added)</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/PlanVanAanpak.pdf')">PVA Periode 4</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Portfolio2022_2023.pdf')">Edumondo Portfolio</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/vragenlijst360-gradenFeedback.pdf')">360 Graden Feedback Edumondo</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">Technisch adviesrapport (To be added)</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">Certificaat van Hogeschooltaal (To be added)</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">Product Presentatie (To be added)</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">Reflectie verslag (To be added)</button>
                     </div>
                 </div>
                 <div class="dropdown">
