@@ -108,9 +108,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="dropdown">
                     <button class="dropbtn">Jaar 2, Semester 1</button>
                     <div class="dropdown-content">
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">To be added</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf2.pdf')">To be added</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf3.pdf')">To be added</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Reflectieverslag-18-01-2026.pdf')">Reflectie verslag</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/TobiasSchipperEMITIT_PointCloud_2.1.pdf')">Periode 1 gegeven feedback</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Feedback-P1-S1.pdf')">Periode 1 gekregen feedback</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/beroeporientatie.pdf')">BeroepOriëntatie</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Persoonlijk-ontwikkelingsplan-opleiding-versie-2.3-Informatica-Semester-1-tweede studiejaar-Tobias Schipper.pdf')">POP</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/POP-Bewijslasten-J2-S1.pdf')">POP bewijslasten</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/POP-Bewijslasten-J2-S1-02.pdf')">POP bewijslasten 2</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Onderzoeksdocument.pdf')">Onderzoek</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Projectmanag.pdf')">ProjectManagement</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Gamba.pdf')">Ethiek</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Portfolio_18-01-2026_Tobias_Schipper.pdf')">Edumundo</button>
+
                     </div>
                 </div>
                 <div class="dropdown">
