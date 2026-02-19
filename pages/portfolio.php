@@ -111,6 +111,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Reflectieverslag-18-01-2026.pdf')">Reflectie verslag</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/TobiasSchipperEMITIT_PointCloud_2.1.pdf')">Periode 1 gegeven feedback</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Feedback-P1-S1.pdf')">Periode 1 gekregen feedback</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Gekregen-Feedback-P2.pdf')">Periode 2 gekregen feedback</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Gegeven-feedback-P2.pdf')">Periode 2 gegeven feedback</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/beroeporientatie.pdf')">BeroepOriëntatie</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/Persoonlijk-ontwikkelingsplan-opleiding-versie-2.3-Informatica-Semester-1-tweede studiejaar-Tobias Schipper.pdf')">POP</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar2/Semester1/Professional_Skills/POP-Bewijslasten-J2-S1.pdf')">POP bewijslasten</button>
