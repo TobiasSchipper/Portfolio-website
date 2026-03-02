@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Portfolio2022_2023.pdf')">Edumondo Portfolio</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/vragenlijst360-gradenFeedback.pdf')">360 Graden Feedback Edumondo</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Technisch-Adviesrapport-EvilAi-inator.pdf')">Technisch adviesrapport</button>
-                        <button onclick="loadPDF('../load_pdf.php?file=pdf1.pdf')">Certificaat van Hogeschooltaal (To be added)</button>
+                        <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/NHLSTENDEN_HOGESCHOOLTAAL_TOETS_UITSLAG.pdf')">Certificaat van Hogeschooltaal (26-01-2026)</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Wayfinder-Final-presentatie.pdf')">Product Presentatie</button>
                         <button onclick="loadPDF('../load_pdf.php?file=Jaar1/Semester2/Professional_Skills/Reflectie-verslag.pdf')">Reflectie verslag</button>
                     </div>
